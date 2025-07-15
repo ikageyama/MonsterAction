@@ -1,0 +1,510 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1750788689891943, "dur": 1863982, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1750788689892151, "dur": 10354, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1750788689902508, "dur": 31467, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1750788689933977, "dur": 1022747, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1750788690956726, "dur": 788280, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1750788691745008, "dur": 10917, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1750788691756632, "dur": 13, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1750788690418195, "dur": 516355, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1750788690419192, "dur": 44080, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1750788690915470, "dur": 4637, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1750788690920110, "dur": 14434, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1750788690920752, "dur": 12799, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1750788690938665, "dur": 1205, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1750788690937892, "dur": 1999, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1750788691756798, "dur": 333, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1750788691000216, "dur":1353, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1750788691001578, "dur":30, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1750788691001623, "dur":10, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1750788691001634, "dur":451, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1750788691002118, "dur":810, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1750788691002928, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1750788691713746, "dur":240, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1750788691713986, "dur":20, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1750788691714006, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1750788691714008, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1750788691714012, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1750788691714013, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1750788691714016, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1750788691714017, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1750788691714021, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1750788691714022, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1750788691714025, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1750788691714026, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1750788691714030, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1750788691714031, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1750788691714034, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1750788691714035, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1750788691714038, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1750788691714056, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1750788691714090, "dur":1459, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1750788691002607, "dur":327, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1750788691002938, "dur":4975, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1750788691007917, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1750788691007922, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1750788691009302, "dur":929, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1750788691010235, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1750788691010294, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1750788691010486, "dur":3805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1750788691014292, "dur":85248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1750788691099543, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1750788691099551, "dur":7078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1750788691106695, "dur":45095, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750788691151793, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1750788691151890, "dur":5643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750788691157584, "dur":2796, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750788691160383, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1750788691160407, "dur":2831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750788691163298, "dur":2358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750788691165658, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1750788691165663, "dur":2180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750788691167897, "dur":2087, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750788691169987, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1750788691169994, "dur":2480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750788691172532, "dur":8772, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750788691181307, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1750788691181313, "dur":2807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750788691184169, "dur":54232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750788691238406, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1750788691238414, "dur":3219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750788691241707, "dur":85825, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750788691327536, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1750788691327545, "dur":1862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750788691329450, "dur":79334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750788691408788, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1750788691408798, "dur":3039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750788691411880, "dur":114138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750788691526023, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1750788691526033, "dur":3151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750788691529241, "dur":46712, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750788691575957, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1750788691575968, "dur":1322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1750788691577348, "dur":136396, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1750788691002725, "dur":220, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1750788691002945, "dur":5028, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1750788691007973, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1750788691008103, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1750788691012652, "dur":1529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1750788691014226, "dur":531, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1750788691014760, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1750788691014960, "dur":2459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1750788691017479, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1750788691017590, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1750788691017597, "dur":82388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1750788691100043, "dur":14086, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1750788691114133, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1750788691114142, "dur":1668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1750788691115864, "dur":3760, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1750788691119628, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1750788691119702, "dur":1345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1750788691121097, "dur":2904, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1750788691124004, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1750788691124015, "dur":2279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1750788691126344, "dur":2248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1750788691128600, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1750788691128608, "dur":3584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1750788691132237, "dur":3354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1750788691135604, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1750788691135612, "dur":1686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1750788691137341, "dur":3880, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1750788691141224, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1750788691141231, "dur":2962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1750788691144240, "dur":2530, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1750788691146773, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1750788691146779, "dur":2880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1750788691149703, "dur":2568, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1750788691152274, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1750788691152280, "dur":2675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1750788691155008, "dur":3258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1750788691158269, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1750788691158277, "dur":3679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1750788691162002, "dur":3408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1750788691165413, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1750788691165418, "dur":2739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1750788691168206, "dur":2979, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1750788691171188, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1750788691171194, "dur":4538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1750788691175778, "dur":3984, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1750788691179786, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1750788691179794, "dur":1469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1750788691181308, "dur":2491, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1750788691183802, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1750788691183808, "dur":2663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1750788691186545, "dur":188563, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1750788691375113, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1750788691375121, "dur":2019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1750788691377188, "dur":156820, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1750788691534010, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1750788691534016, "dur":1929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1750788691535988, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":2, "ts":1750788691536034, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1750788691536058, "dur":1411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":2, "ts":1750788691537512, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1750788691537559, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1750788691537564, "dur":3192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1750788691540799, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":2, "ts":1750788691540840, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1750788691540846, "dur":5541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":2, "ts":1750788691546436, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1750788691546565, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1750788691546570, "dur":1476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1750788691548087, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1750788691548129, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1750788691548134, "dur":2145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1750788691550323, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1750788691550365, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1750788691550371, "dur":1904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1750788691552319, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/level2.resS" }}
+,{ "pid":12345, "tid":2, "ts":1750788691552366, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1750788691552371, "dur":1175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/level2.resS" }}
+,{ "pid":12345, "tid":2, "ts":1750788691553594, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/level2" }}
+,{ "pid":12345, "tid":2, "ts":1750788691553638, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1750788691553643, "dur":1021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/level2" }}
+,{ "pid":12345, "tid":2, "ts":1750788691554705, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/level1.resS" }}
+,{ "pid":12345, "tid":2, "ts":1750788691554748, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1750788691554755, "dur":1204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/level1.resS" }}
+,{ "pid":12345, "tid":2, "ts":1750788691556007, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1750788691556051, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1750788691556058, "dur":1613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1750788691557716, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1750788691557805, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1750788691557812, "dur":6215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1750788691564073, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1750788691564118, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1750788691564124, "dur":3067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1750788691567238, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1750788691567378, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1750788691567384, "dur":3415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1750788691570852, "dur":142901, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1750788691002826, "dur":124, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1750788691002951, "dur":5013, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1750788691007965, "dur":448, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1750788691008416, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1750788691018487, "dur":81524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1750788691100067, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1750788691100165, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1750788691104053, "dur":2492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1750788691106615, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1750788691106718, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1750788691106725, "dur":3179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1750788691110058, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1750788691110199, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1750788691110719, "dur":9312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1750788691120093, "dur":2466, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750788691122564, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1750788691122573, "dur":1771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750788691124398, "dur":2078, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750788691126479, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1750788691126506, "dur":2440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750788691129000, "dur":2526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750788691131529, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1750788691131535, "dur":2496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750788691134075, "dur":4123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750788691138202, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1750788691138209, "dur":2228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750788691140485, "dur":3342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750788691143832, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1750788691143839, "dur":2466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750788691146356, "dur":2134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750788691148493, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1750788691148499, "dur":2726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750788691151281, "dur":2380, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750788691153667, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1750788691153678, "dur":3884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750788691157609, "dur":2130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750788691159744, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1750788691159753, "dur":2172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750788691161976, "dur":2474, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750788691164452, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1750788691164459, "dur":1956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750788691166461, "dur":2480, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750788691168944, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1750788691168951, "dur":1230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750788691170224, "dur":2223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750788691172527, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1750788691172537, "dur":4368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750788691177046, "dur":3622, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750788691180671, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1750788691180678, "dur":3085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750788691183813, "dur":88647, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750788691272464, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1750788691272473, "dur":1520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750788691274055, "dur":125402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750788691399460, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1750788691399467, "dur":1712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750788691401222, "dur":42837, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750788691444064, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1750788691444072, "dur":19048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750788691463165, "dur":246927, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750788691710096, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1750788691710104, "dur":3545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1750788691713690, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1750788691713693, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1750788691002960, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1750788691002961, "dur":4999, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1750788691007961, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1750788691008113, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1750788691012615, "dur":1523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1750788691014198, "dur":85281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1750788691099484, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1750788691099494, "dur":7079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1750788691106638, "dur":4827, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1750788691111471, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1750788691112078, "dur":1393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1750788691113524, "dur":4952, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1750788691118481, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1750788691118828, "dur":1245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1750788691120126, "dur":2593, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1750788691122723, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1750788691122754, "dur":1945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1750788691124767, "dur":2228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1750788691126998, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1750788691127004, "dur":3410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1750788691130465, "dur":2154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1750788691132621, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1750788691132627, "dur":2134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1750788691134824, "dur":138931, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1750788691273774, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1750788691273782, "dur":1322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1750788691275145, "dur":65021, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1750788691340169, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1750788691340174, "dur":1481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1750788691341757, "dur":38879, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1750788691380641, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1750788691380650, "dur":1309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1750788691382003, "dur":247902, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1750788691629909, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1750788691629917, "dur":2340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1750788691632297, "dur":81448, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1750788691003138, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1750788691003154, "dur":4808, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1750788691007962, "dur":91625, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1750788691099590, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1750788691099603, "dur":6545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1750788691106220, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1750788691106338, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1750788691106346, "dur":1928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1750788691108328, "dur":4180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction.exe" }}
+,{ "pid":12345, "tid":5, "ts":1750788691112511, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1750788691112516, "dur":3018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction.exe" }}
+,{ "pid":12345, "tid":5, "ts":1750788691115682, "dur":6202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750788691121888, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1750788691121897, "dur":2212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750788691124167, "dur":2548, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750788691126718, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1750788691126724, "dur":2099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750788691128878, "dur":2407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750788691131288, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1750788691131295, "dur":2916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750788691134265, "dur":2321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750788691136590, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1750788691136598, "dur":2205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750788691138914, "dur":2315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750788691141232, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1750788691141237, "dur":2785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750788691144071, "dur":2326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750788691146400, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1750788691146408, "dur":3133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750788691149590, "dur":2139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750788691151732, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1750788691151739, "dur":2473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750788691154265, "dur":2926, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750788691157196, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1750788691157203, "dur":4000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750788691161250, "dur":2841, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750788691164095, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1750788691164103, "dur":1938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750788691166090, "dur":2078, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750788691168170, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1750788691168178, "dur":1471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750788691169698, "dur":2165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750788691171867, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1750788691171874, "dur":3607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750788691175531, "dur":2644, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750788691178178, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1750788691178185, "dur":2039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750788691180269, "dur":2309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750788691182599, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1750788691182619, "dur":1479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750788691184145, "dur":78629, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750788691262777, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1750788691262785, "dur":4022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750788691266878, "dur":144146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750788691411080, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1750788691411091, "dur":1315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750788691412448, "dur":97595, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750788691510046, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1750788691510073, "dur":5737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750788691515855, "dur":133064, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750788691648922, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1750788691648931, "dur":1309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1750788691650280, "dur":63462, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1750788691003241, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1750788691003241, "dur":4694, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1750788691007936, "dur":91595, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1750788691099534, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1750788691104066, "dur":2240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1750788691106372, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1750788691106474, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1750788691106481, "dur":1553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1750788691108098, "dur":13277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1750788691121378, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1750788691121386, "dur":2293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1750788691123742, "dur":2441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1750788691126188, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1750788691126195, "dur":1759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1750788691128006, "dur":2768, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1750788691130778, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1750788691130785, "dur":1884, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1750788691132714, "dur":1769, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1750788691134485, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1750788691134491, "dur":1180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1750788691135718, "dur":1837, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1750788691137558, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1750788691137564, "dur":1812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1750788691139419, "dur":3336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1750788691142760, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1750788691142769, "dur":3622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1750788691146438, "dur":2014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1750788691148456, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1750788691148463, "dur":2745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1750788691151264, "dur":2506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1750788691153773, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1750788691153779, "dur":3916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1750788691157747, "dur":2476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1750788691160226, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1750788691160233, "dur":2754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1750788691163032, "dur":2112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1750788691165147, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1750788691165153, "dur":2845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1750788691168047, "dur":3032, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1750788691171082, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1750788691171088, "dur":2369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1750788691173505, "dur":2159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1750788691175667, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1750788691175675, "dur":1724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1750788691177448, "dur":2550, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1750788691180000, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1750788691180006, "dur":1337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1750788691181388, "dur":2091, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1750788691183483, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1750788691183491, "dur":1455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1750788691184989, "dur":76725, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1750788691261718, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1750788691261726, "dur":1709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1750788691263476, "dur":95462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1750788691358943, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1750788691358952, "dur":1597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1750788691360599, "dur":38480, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1750788691399083, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1750788691399092, "dur":2018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":6, "ts":1750788691401155, "dur":176659, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1750788691577817, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1750788691577824, "dur":2205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1750788691580075, "dur":133668, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1750788691003420, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1750788691003421, "dur":4541, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1750788691007963, "dur":359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1750788691008324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1750788691017363, "dur":2292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1750788691019725, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1750788691019834, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1750788691020264, "dur":85879, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1750788691106212, "dur":17445, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1750788691123660, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1750788691123670, "dur":1715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1750788691125442, "dur":2263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1750788691127708, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1750788691127716, "dur":2190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1750788691129958, "dur":2331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1750788691132292, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1750788691132298, "dur":2141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1750788691134482, "dur":9366, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1750788691143851, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1750788691143857, "dur":2948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1750788691146852, "dur":2117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1750788691148972, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1750788691148977, "dur":2950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1750788691151989, "dur":2267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1750788691154263, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1750788691154270, "dur":3142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1750788691157630, "dur":3286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1750788691160918, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1750788691160925, "dur":2333, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1750788691163326, "dur":1685, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1750788691165034, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1750788691165041, "dur":2855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1750788691167978, "dur":3011, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1750788691170993, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1750788691171006, "dur":2537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1750788691173607, "dur":2555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1750788691176165, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1750788691176171, "dur":1169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1750788691177382, "dur":3575, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1750788691180960, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1750788691180966, "dur":1734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1750788691182748, "dur":54090, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1750788691236868, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1750788691236879, "dur":5490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1750788691242412, "dur":217251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1750788691459668, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1750788691459676, "dur":3134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1750788691462854, "dur":46500, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1750788691509358, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1750788691509367, "dur":1461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1750788691510872, "dur":182883, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1750788691693759, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1750788691693766, "dur":1671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1750788691695475, "dur":18243, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1750788691003465, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1750788691003465, "dur":4498, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1750788691007964, "dur":91581, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1750788691099548, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1750788691099569, "dur":6568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1750788691106722, "dur":123733, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1750788691230460, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1750788691230467, "dur":22507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1750788691253024, "dur":87104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1750788691340133, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1750788691340142, "dur":1413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1750788691341800, "dur":87172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1750788691428976, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1750788691428985, "dur":1225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1750788691430253, "dur":103630, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1750788691533888, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1750788691533898, "dur":1885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1750788691535834, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1750788691535883, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1750788691535947, "dur":1298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1750788691537292, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":8, "ts":1750788691537336, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1750788691537343, "dur":2438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":8, "ts":1750788691539847, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":8, "ts":1750788691539892, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1750788691539898, "dur":1332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":8, "ts":1750788691541273, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1750788691541313, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1750788691541319, "dur":4164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1750788691545553, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1750788691545603, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1750788691545610, "dur":2007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1750788691547660, "dur":8868, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1750788691556531, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1750788691556537, "dur":5951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1750788691562539, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1750788691562586, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1750788691562592, "dur":2946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1750788691565581, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1750788691565625, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1750788691565630, "dur":1586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/yamak/OneDrive///Monster Action/2Daction_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1750788691567257, "dur":146491, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1750788691717006, "dur":1608, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1750788691757229, "dur": 1067, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1750788691756621, "dur": 1704, "ph": "X", "name": "Write chrome-trace events", "args": {} },
